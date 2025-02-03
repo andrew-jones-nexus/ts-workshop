@@ -1,0 +1,20 @@
+{
+ "name": "api-workshop",
+ "version": "1.0.0",
+ "main": "index.js",
+ "scripts": {
+  "build": "tsc",
+  "start:api": "npm run build && node dist/index.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+ },
+ "author": "",
+ "license": "ISC",
+ "description": "",
+ "dependencies": {
+  "fastify": "^5.2.1",
+  "typescript": "^5.7.3"
+ },
+ "devDependencies": {
+  "@types/node": "^22.13.0"
+ }
+}

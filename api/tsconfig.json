@@ -1,0 +1,13 @@
+{
+ "include": ["."],
+ "compilerOptions": {
+  "baseUrl": ".",
+  "rootDir": ".",
+  "outDir": "dist",
+  "emitDecoratorMetadata": true,
+  "experimentalDecorators": true,
+  "noUncheckedIndexedAccess": false,
+  "noImplicitAny": false
+ },
+ "exclude": ["**/*.spec.ts", "**/*.test.ts"]
+}
